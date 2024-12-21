@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        operator();
+
+let car = [
+  "TATA",
+  "Hyundai",
+  "Mahindra",
+  "KIA",
+  "Maruti Suzuki",
+  "Honda",
+];
+
+console.log(car[0])
+
+let country = ["INDIA", {}, [1,2,34,5], "UK", "Brazil", "Nepal"];
+
+document.write(country[2].length);
+
+let obj = [
+  {
+    car: "Tiago",
+    color: "yellow",
+    company: "Tata",
+    max_speed: 120,
+  },
+  {
+    car: "Carens",
+    color: "black",
+    company: "KIA",
+    max_speed: 130,
+  },
+];
+
+for (let index = 0; index < obj.length; index++) {
+  const carName= obj[index].car;
+  const color= obj[index].color;
+  const company= obj[index].company; 
+  document.write("<br />" + carName+ " "+color+ " " +company);
+}
+    </script>
+</body>
+</html>
